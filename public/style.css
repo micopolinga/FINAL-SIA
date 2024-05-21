@@ -1,0 +1,48 @@
+#main {
+    min-height: 100svh;
+    display: grid;
+    grid-template-columns: 330px 1fr;
+}
+
+#sidebar {
+    background-color: #9e9e9e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#branding {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #a7a5a5;
+}
+
+#sidebar img {
+    width: 150px;
+    margin-top: 32px;
+}
+
+#content {
+    padding: 32px;
+}
+
+#main-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 24px;
+}
+
+#main nav a {
+    padding: 16px;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    font-size: larger;
+}
+
+#main nav a:hover {
+    background-color: #555;
+    /* text-align: center; */
+}
